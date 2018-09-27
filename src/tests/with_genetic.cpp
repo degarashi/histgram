@@ -1,10 +1,10 @@
 #include "lubee/tests/test.hpp"
-#include "../genetic/gene_order.hpp"
-#include "../genetic/environment.hpp"
-#include "../genetic/pmx.hpp"
-#include "../genetic/jgg.hpp"
-#include "../genetic/bernoulli.hpp"
-#include "../genetic/swap.hpp"
+#include "../genetic/src/gene_order.hpp"
+#include "../genetic/src/environment.hpp"
+#include "../genetic/src/pmx.hpp"
+#include "../genetic/src/jgg.hpp"
+#include "../genetic/src/bernoulli.hpp"
+#include "../genetic/src/swap.hpp"
 #include "../fit_cell.hpp"
 
 namespace dg::test {
