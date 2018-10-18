@@ -2,9 +2,12 @@ cmake_minimum_required(VERSION 2.8)
 project(histgram)
 
 set(CXX_VERSION 17)
-include(src/lubee/cxx_options.cmake)
+include(lubee/cxx_options.cmake)
 string(CONCAT CMAKE_CXX_FLAGS " -Wno-gnu-anonymous-struct")
 
+include_directories(
+	${CMAKE_CURRENT_SOURCE_DIR}
+)
 aux_source_directory(src LIBSRC)
 add_library(histgram SHARED ${LIBSRC})
 set_target_properties(histgram PROPERTIES VERSION 0.0.1 SOVERSION 0)

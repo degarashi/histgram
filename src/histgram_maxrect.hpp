@@ -1,5 +1,5 @@
 #pragma once
-#include "lubee/size.hpp"
+#include "lubee/src/size.hpp"
 #include <vector>
 #include <cassert>
 

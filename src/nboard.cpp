@@ -1,5 +1,5 @@
 #include "nboard.hpp"
-#include "lubee/compare.hpp"
+#include "lubee/src/compare.hpp"
 #include <iostream>
 #include <cassert>
 

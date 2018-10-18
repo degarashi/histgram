@@ -1,3 +1,3 @@
 [submodule "genetic"]
-	path = src/genetic
+	path = genetic
 	url = ../genetic

@@ -1,5 +1,5 @@
 #pragma once
-#include "lubee/rect.hpp"
+#include "lubee/src/rect.hpp"
 #include <vector>
 
 namespace dg {

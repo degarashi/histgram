@@ -1,4 +1,4 @@
-#include "lubee/tests/test.hpp"
+#include "lubee/src/tests/test.hpp"
 #include "../genetic/src/gene_order.hpp"
 #include "../genetic/src/environment.hpp"
 #include "../genetic/src/pmx.hpp"

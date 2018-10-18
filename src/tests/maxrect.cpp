@@ -1,5 +1,5 @@
 #include "../maxrect.hpp"
-#include "lubee/tests/test.hpp"
+#include "lubee/src/tests/test.hpp"
 
 namespace dg::test {
 	namespace {
