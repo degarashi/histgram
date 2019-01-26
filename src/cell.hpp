@@ -37,5 +37,6 @@ namespace dg {
 			const NBoard& nboard() const noexcept;
 			// 空きマス数(from NBoard)
 			size_t getNEmptyCell() const noexcept;
+			double getFillRatio() const noexcept;
 	};
 }

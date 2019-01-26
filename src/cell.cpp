@@ -116,6 +116,9 @@ namespace dg {
 	CellBoard::Score CellBoard::calcScore(const double rNet, const double rEmpty) const noexcept {
 		return 1.0 / (1 + (rNet*_vnet.getLength() / VNet::N_Corner) + rEmpty*_board.getNEmptyCell());
 	}
+	double CellBoard::getFillRatio() const noexcept {
+		return 1.0 - double(getNEmptyCell()) / _board.getSize().area();
+	}
 	size_t CellBoard::getNEmptyCell() const noexcept {
 		return _board.getNEmptyCell();
 	}
