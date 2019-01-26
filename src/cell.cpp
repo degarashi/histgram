@@ -77,6 +77,7 @@ namespace dg {
 		return ret;
 	}
 	bool CellBoard::place(const lubee::SizeI& rs) {
+		assert(rs.width > 0 && rs.height > 0);
 		// 隣接スコアが一番高かった場所を取得
 		const auto cand = FindPlace(_board, rs);
 		if(cand.empty())
