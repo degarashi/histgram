@@ -36,7 +36,8 @@ namespace dg {
 		};
 
 		struct Item {
-			int		height;
+			using H_t = decltype(getHeight(hist[0]));
+			H_t		height;
 			int		beginPos;
 		};
 		using Stack = std::vector<Item>;
